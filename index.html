@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explora las opciones de financiación para movilidad académica." />
+  <title>Apoyos financieros | Movilidad académica</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="intro">
+      <h1>Explora nuestros apoyos financieros</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </header>
+    <div class="layout">
+      <aside class="filters" aria-label="Filtros de apoyos financieros">
+        <h2>Filtrar por</h2>
+        <div id="filters-container"></div>
+        <button class="clear-button" id="clear-filters" type="button" disabled>⌫ &nbsp; Limpiar</button>
+      </aside>
+      <section class="results" aria-label="Resultados de apoyos financieros">
+        <p class="results-count" id="results-count" aria-live="polite"></p>
+        <div class="cards-grid" id="cards-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>No se encontraron resultados para los filtros seleccionados.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
